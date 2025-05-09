@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:talkany/auth_services.dart';
 class SignInPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -15,8 +16,12 @@ class SignInPage extends StatelessWidget {
               child: Text('Sign in with Email'),
             ),
             ElevatedButton(
-              onPressed: () {
+              onPressed: () async {
                 // Trigger Google sign-in logic
+                final user = await AuthService.signInWithGoogle();
+                if (user != null) {
+                  Navigator.pushNamed(context, '/home');
+                }
               },
               child: Text('Sign in with Google'),
             ),
