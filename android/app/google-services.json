@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "176529937128",
+    "project_id": "talkany-bb5b1",
+    "storage_bucket": "talkany-bb5b1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176529937128:android:46ba02f3159d898c75af5d",
+        "android_client_info": {
+          "package_name": "com.example.talkany"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkMczoKqcAsEGGmqWtFVPNpSypkMaOZj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
